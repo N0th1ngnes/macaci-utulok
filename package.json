@@ -2,13 +2,16 @@
   "name": "good-mews-shelter",
   "version": "1.0.0",
   "private": true,
-  "description": "Good Mews cat shelter website with a read-only MySQL API",
+  "description": "Good Mews cat shelter website backed by committed JSON exports",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "export-data": "node export-data.js"
   },
   "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
     "dotenv": "^16.4.7",
-    "express": "^4.21.2",
     "mysql2": "^3.12.0"
   }
 }

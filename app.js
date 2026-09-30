@@ -71,7 +71,7 @@ function renderAdoptions() {
 }
 
 function renderVets() {
-  vetRoot.innerHTML = shelterData.veterinarians.map(vet => `<article class="vet-card"><div class="vet-avatar"><img src="${imageUrl('vet', vet.id)}" onerror="this.onerror=null;this.src='${imageUrl('vet', 4)}'" alt="${escapeHtml(vet.name)}" loading="lazy"></div><span class="vet-specialty" aria-hidden="true">✳</span><h3>${escapeHtml(vet.name)}</h3><p class="vet-role">Shelter veterinarian</p><div class="vet-divider"></div><div class="vet-facts"><span><strong>${escapeHtml(vet.age)}</strong>years old</span><span><strong>${escapeHtml(vet.experience)}</strong>experience</span></div><p class="vet-patients"><strong>In their care:</strong> ${escapeHtml(vet.patients)}</p></article>`).join('');
+  vetRoot.innerHTML = shelterData.veterinarians.map(vet => `<article class="vet-card"><div class="vet-avatar"><img src="${imageUrl('vet', vet.id)}" onerror="this.onerror=null;this.src='${imageUrl('cat', 4)}'" alt="${escapeHtml(vet.name)}" loading="lazy"></div><span class="vet-specialty" aria-hidden="true">✳</span><h3>${escapeHtml(vet.name)}</h3><p class="vet-role">Shelter veterinarian</p><div class="vet-divider"></div><div class="vet-facts"><span><strong>${escapeHtml(vet.age)}</strong>years old</span><span><strong>${escapeHtml(vet.experience)}</strong>experience</span></div><p class="vet-patients"><strong>In their care:</strong> ${escapeHtml(vet.patients)}</p></article>`).join('');
 }
 
 function renderInventory() {
@@ -144,7 +144,7 @@ async function loadShelter() {
     renderShelter();
   } catch (error) {
     console.error('Could not load shelter data:', error);
-    showToast('Shelter data is unavailable. Check the server and database connection.');
+    showToast('Shelter data is unavailable. Check the server and exported JSON files.');
   }
 }
 

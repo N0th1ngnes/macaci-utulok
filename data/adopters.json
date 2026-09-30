@@ -1,0 +1,58 @@
+[
+  {
+    "adopterID": 2,
+    "first_name": "Captain",
+    "last_name": "America",
+    "catID": 4,
+    "adoption_date": "2026-01-30",
+    "cat_name": "Leo"
+  },
+  {
+    "adopterID": 7,
+    "first_name": "Harry",
+    "last_name": "Potter",
+    "catID": 8,
+    "adoption_date": "2025-08-11",
+    "cat_name": "Mia"
+  },
+  {
+    "adopterID": 6,
+    "first_name": "Professor",
+    "last_name": "McGonagall",
+    "catID": 7,
+    "adoption_date": "2025-07-25",
+    "cat_name": "Nala"
+  },
+  {
+    "adopterID": 5,
+    "first_name": "Princess",
+    "last_name": "Cinderella",
+    "catID": 6,
+    "adoption_date": "2025-07-07",
+    "cat_name": null
+  },
+  {
+    "adopterID": 4,
+    "first_name": "Darth",
+    "last_name": "Veider",
+    "catID": 5,
+    "adoption_date": "2025-06-18",
+    "cat_name": "Oliver"
+  },
+  {
+    "adopterID": 3,
+    "first_name": "Spider",
+    "last_name": "Men",
+    "catID": 4,
+    "adoption_date": "2025-06-02",
+    "cat_name": "Leo"
+  },
+  {
+    "adopterID": 1,
+    "first_name": "Tony",
+    "last_name": "Stark",
+    "catID": 3,
+    "adoption_date": "2025-05-23",
+    "cat_name": "Simba"
+  }
+]

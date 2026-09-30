@@ -1,0 +1,86 @@
+[
+  {
+    "id": 6,
+    "name": "Anti-parasite medicine",
+    "type": "medicine",
+    "quantity": "25.00",
+    "unit": "pcs"
+  },
+  {
+    "id": 5,
+    "name": "Antibiotics",
+    "type": "medicine",
+    "quantity": "30.00",
+    "unit": "pcs"
+  },
+  {
+    "id": 2,
+    "name": "Canned cat food",
+    "type": "food",
+    "quantity": "120.00",
+    "unit": "pcs"
+  },
+  {
+    "id": 12,
+    "name": "Cat cage",
+    "type": "accommodation",
+    "quantity": "27.00",
+    "unit": "pcs"
+  },
+  {
+    "id": 11,
+    "name": "Cat feeder",
+    "type": "accommodation",
+    "quantity": "27.00",
+    "unit": "pcs"
+  },
+  {
+    "id": 1,
+    "name": "Cat food",
+    "type": "food",
+    "quantity": "50.00",
+    "unit": "kg"
+  },
+  {
+    "id": 7,
+    "name": "Cat litter",
+    "type": "hygiene",
+    "quantity": "80.00",
+    "unit": "kg"
+  },
+  {
+    "id": 9,
+    "name": "Cat scratching post",
+    "type": "toy",
+    "quantity": "12.00",
+    "unit": "pcs"
+  },
+  {
+    "id": 10,
+    "name": "Cat water bowl",
+    "type": "accommodation",
+    "quantity": "27.00",
+    "unit": "pcs"
+  },
+  {
+    "id": 4,
+    "name": "Panleukopenia vaccine",
+    "type": "vaccine",
+    "quantity": "20.00",
+    "unit": "pcs"
+  },
+  {
+    "id": 3,
+    "name": "Rabies vaccine",
+    "type": "vaccine",
+    "quantity": "15.00",
+    "unit": "pcs"
+  },
+  {
+    "id": 8,
+    "name": "Toy mouse",
+    "type": "toy",
+    "quantity": "27.00",
+    "unit": "pcs"
+  }
+]
