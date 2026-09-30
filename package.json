@@ -1,0 +1,14 @@
+{
+  "name": "good-mews-shelter",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Good Mews cat shelter website with a read-only MySQL API",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mysql2": "^3.12.0"
+  }
+}
